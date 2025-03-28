@@ -85,9 +85,6 @@ jobs:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
 
-      - name: Azure Cost Estimator GitHub Action
-        uses: TheCloudTheory/azure-cost-estimator-action@0.0.13-preview
-
   deploy: 
     defaults:
       run:
